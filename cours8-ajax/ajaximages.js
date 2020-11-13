@@ -38,7 +38,7 @@ function AJAXRequest() {
 	// Traiter l'objet JS result ici
 	for (var key in images) {
 	    
-	    imgs[key].src = images[key]; 
+	    imgs[parseInt(key)].src = images[key]; 
 	    
 	}
 		
